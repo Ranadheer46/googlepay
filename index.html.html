@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .images {}
+
+        .navbar {
+            position: sticky;
+            top: 0%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.2% 1%;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: rgb(152, 10, 152);
+            font-size: 1rem;
+            font-family: sans-serif;
+        }
+
+        .getstarted {
+            background-color: rgb(14, 22, 244);
+            color: white !important;
+            border-radius: 0px;
+            padding: 0.8% 1.3%;
+        }
+
+        .words {
+            position: relative;
+            left: 36%;
+        }
+
+        .startingimg {
+            background-size: cover;
+        }
+
+        .heading1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 37px;
+            color: rgb(40, 38, 38);
+        }
+
+        .para1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 23px;
+            color: rgb(89, 87, 87);
+        }
+
+        .para2 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 23px;
+            color: rgb(89, 87, 87);
+            margin: 0% 17%;
+        }
+
+        .playstoreimg {
+            margin: 0% 40%;
+        }
+
+        .gpayimage2 {
+            margin: 3.3% 0%;
+        }
+
+        .heading2 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(40, 38, 38);
+            margin: 0% 18%;
+        }
+
+        .para2-1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 18px;
+            color: rgb(89, 87, 87);
+            margin: 3% 16%;
+        }
+
+        .gpayimage3 {
+            margin: 2% 0%;
+        }
+
+        .heading3 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(40, 38, 38);
+        }
+
+        .para3-1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 17px;
+            color: rgb(89, 87, 87);
+            margin: 3% 17%;
+            justify-content: space-evenly;
+        }
+
+        .bhimupi {
+            margin: 0% 38%;
+        }
+
+        .gpayimage4 {
+            margin: 7% 0%;
+        }
+
+
+        .heading4 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 38px;
+            color: rgb(40, 38, 38);
+        }
+
+        .para4-1 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15.3px;
+            color: rgb(89, 87, 87);
+            margin: 2% 21%;
+            justify-content: space-evenly;
+        }
+
+        .para4-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15px;
+            color: rgb(89, 87, 87);
+            margin: 0% 21%;
+        }
+
+        .gpayimage6 {
+            margin: 6% 0%;
+        }
+
+        .heading5 {
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 41px;
+            color: rgb(40, 38, 38);
+            margin: 1% 0%;
+        }
+
+        .para5-1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 15.7px;
+            color: rgb(89, 87, 87);
+            margin: 2% 21%;
+        }
+
+        .para5-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 16px;
+            color: rgb(89, 87, 87);
+            margin: 2% 21%;
+        }
+
+        .axisimg {
+            margin: 0% 25%;
+            position: relative;
+            
+        }
+
+        .banks {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            display: flex;
+            font-size: 19px;
+            color: blue;
+            margin: 0% 42%;
+            text-decoration: none
+        }
+
+        .arrow {
+            margin: 0.7%;
+        }
+
+        .section {
+            margin-top: 7%;
+            background-color: rgba(248, 248, 248, 255);
+            width: 100%;
+            height: 25vw;
+            border-top: 2%;
+            display: inline-block;
+            padding-top: 8%;
+            margin-bottom: 4%
+        }
+
+        .heading6 {
+            margin: 0% 20%;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 49px;
+            color: rgb(40, 38, 38);
+        }
+
+        .lastgpayimg {
+            margin: 0% 1% 3%;
+        }
+
+        .firstword {
+            margin: 0% 2.4%;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .firstword2 {
+            margin: 0% 2%;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .secondword {
+            margin: 0% 31%;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .secondword2 {
+            margin: 0% 31%;
+            font-size: 150%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .macstoreimg {
+
+            margin: 15% 40%;
+            margin-top: 10%;
+        }
+
+        .gpayscanner {
+            margin: 6% 45%;
+        }
+
+        .heading7 {
+            margin: 0% 20%;
+
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 43px;
+            color: rgb(40, 38, 38);
+        }
+
+        .para7-1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 16.9px;
+            color: rgb(89, 87, 87);
+            margin: 2% 18%;
+        }
+
+        .para7-2 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 16px;
+            color: rgb(89, 87, 87);
+            margin: 2% 18%;
+        }
+
+        .para7-3 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            display: flex;
+            font-size: 16px;
+            color: blue;
+            margin: 0% 44.5%;
+            text-decoration: none
+        }
+
+        .font2 {
+            margin: 6% 12%;
+            size: 20%;
+        }
+
+        .bottomwords1 {
+            text-decoration: none;
+            margin: 0% 0%;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(97, 96, 96);
+
+
+        }
+
+        .bottomwords2 {
+            text-decoration: none;
+            margin: 0% 9%;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(97, 96, 96);
+
+
+        }
+
+        .bottombar {
+            display: flex;
+            justify-content: right;
+            margin-right: 15%;
+
+
+
+        }
+
+        .bottomwords3 {
+            text-decoration: none;
+            margin: 0% 6%;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(97, 96, 96);
+
+
+        }
+
+
+        .dropdown {
+            text-decoration: none;
+
+            border: none;
+            color: gray;
+        }
+
+        .languages {
+            color: gray;
+        }
+
+        .imagesbottom {
+            margin-left: 0%;
+        }
+
+        .flag {
+            top: 7.5px;
+            right: px;
+            position: relative;
+        }
+
+        .quetionmark {
+            top: 6px;
+            position: relative;
+
+        }
+
+        .user {
+            top: 6px;
+            position: relative;
+        }
+
+        .icons {
+            margin: 0.6% 17%;
+
+        }
+
+        .lastline {
+            text-align: right;
+            margin-right: 0.9%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <a href="">
+                <img class="font" src="images/25.png" width="158px" alt=""></a>
+
+            <a class="words" href="">For Business</a>
+            <a class="getstarted" href="">
+                Get started</a>
+
+
+
+
+        </nav>
+        <div>
+            <img class="startingimg"
+                src="https://media.licdn.com/dms/image/D4D12AQGFP9g0mizIrg/article-cover_image-shrink_720_1280/0/1694240635958?e=1712188800&v=beta&t=6VmRe20DBcQpvC05cD6fEu41WchU25fZaIis3-szcpw"
+                width="100%" alt="">
+        </div>
+        <div>
+            <h1 class="heading1">Money made simple, by Google.</h1>
+            <p class="para1">Built for India with all the features and rewards you love, plus much more.</p>
+            <p class="para2">Google Pay is the simplest way to send money home to your family, recharge your mobile, or
+                pay the neighbourhood chaiwala.</p>
+            <p><a class="playstoreimg" href=""><img src="images/playtore.png" width="9%" alt="" href=""><img
+                        src="images/4.png" width="9%" height="47px" alt=""></a></p>
+        </div>
+        <div>
+            <img class="gpayimage2" src="images/5.png" width="100%" alt="">
+        </div>
+        <p class="heading2">The simple way to send or receive money with anyone</p>
+        <p class="para2-1">Send or receive money with zero fees, straight from your bank account to almost anyone. You
+            can send or receive money even if your contact is not on Google Pay. Split lunch with a friend, pay the
+            rent, or send money to mom.</p>
+        <div>
+            <img class="gpayimage3" src="images/6.png" width="100%" alt="">
+        </div>
+        <p class="heading3">Shop, recharge, and more</p>
+        <p class="para3-1">Recharge your <a href="mobile">mobile</a> in a tap and finish with those monthly <a
+                href="#">bills</a> on Google Pay. Now you’re free to go shopping - online, or in a store. We’ve got
+            you
+            covered with easy access to past transactions, so you’re always in control. Use it wherever you see UPI or
+            Google Pay.</p>
+        <img class="bhimupi" src="images/7.png" width="23%" height="12%" alt="">
+        <div>
+            <img class="gpayimage4" src="images/8.png" width="100%" alt="">
+        </div>
+        <img class="gpayimage5" src="images/9.png" width="100%" alt="">
+        <div>
+            <p class="heading4">Rewards that are endlessly rewarding</p>
+            <p class="para4-1">Earn scratch cards and other rewards as you use Google Pay worth up to ₹1,00,000*. You
+                don’t need to hunt for coupon codes. If you win, your rewards go straight into your bank account</p>
+            <p class="para4-2">*See full <a href="Terms and Conditions">Terms and Conditions</a> for all details
+                including eligibility.</p>
+        </div>
+        <img class="gpayimage6" src="images/10.png" width="100%" alt="">
+
+        <div>
+            <p class="heading5">Money in your bank</p>
+            <p class="para5-1">Pay and receive money instantly using your existing bank accounts. No more reloading
+                mobile wallet balances or withdrawal fees. It’s your money, made simple.</p>
+            <p class="para5-2">Google Pay works with all banks that support BHIM UPI.</p>
+        </div>
+        <img class="axisimg" src="images/11.png" width="50%" alt="">
+        <p><a class="banks" href="">See all supported banks <img class="arrow" src="images/arrow.png" width="7%"
+                    height="9%" alt=""></a></p>
+
+
+        <div class="section">
+            <p class="heading6">Getting started is quick and easy</p>
+            <img class="lastgpayimg" src="images/12.png" width="100%" height="40%" alt="">
+
+            <div>
+                <p><a class="macstoreimg" href=""><img src="images/playtore.png" width="9%" alt="" href=""><img
+                            src="images/4.png" width="9%" height="45px" alt=""></a></p>
+            </div>
+            <div>
+                <img class="gpayscanner" src="images/13.png" width="10%" height="10%" alt="">
+            </div>
+            <p class="heading7">Your money is protected</p>
+            <p class="para7-1">Google Pay protects your money with a world class security system that helps detect fraud
+                and prevents hacking. Safeguard your account with your screen lock, such as your fingerprint. If you
+                need assistance, please visit 'Help and Feedback' in the app to connect with a support specialist</p>
+            <p class="para7-2">
+                Call us 24/7 at our toll-free support number: <a href="1-800-419-0157">1-800-419-0157</a></a></p>
+            <P><a class="para7-3" href="">Visit the help centre <img class="arrow" src="images/arrow.png"
+                        width="11%" height="11%" alt=""></a></P>
+            <a href=""></a>
+        </div>
+
+        <a href="">
+            <img class="font2" src="images/25.png" width="14%"></a>
+        <div class="bottombar">
+            <div class="bottomwords1">
+                <p>Help Centre</p>
+                <p>Grievances</p>
+                <p>About</p>
+                <p>Privacy</p>
+            </div>
+
+            <div class="bottomwords2">
+                <p>Terms</p>
+                <p>For business</p>
+                <p>Blog</p>
+                <p>Contact us</p>
+            </div>
+
+
+            <div class="bottomwords3">
+                <img class="quetionmark" src="images/question.png" width="18px" height="18px"><a> Help</a>
+                <div>
+                    <img class="user" src="images/profile image.png" width="18px" height="18px" alt=""><a>Your account</a>
+                </div>
+
+
+                <div class="dropdown">
+                    <div>
+                        <img class="flag" width="18px" height="18px" src="images/flag.png" alt="">
+                        <select class="languages">
+                            <option value="English(UK)">English (india)</option>
+                            <option value="Telugu">Telugu</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Kannada">Kannada</option>
+                            <option value="Malayalam">Malayalam</option>
+                            <option value="Tamil">Tamil</option>
+                            <option value="Bengali">Bengali</option>
+                            <option value="Gujarathi">Gujarathi</option>
+                            <option value="Punjabhi">Punjabhi</option>
+                            <option value="Marathi">Marathi</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <img src="images/line.png" width="100%" height="30px" alt="">
+        </div>
+        <div class="icons">
+            <a href=""><img class="twitter" width="2.5%%" src="images/twitter.png" alt=""></a>
+            <a href=""><img src="images/youtube.png" width="2.5%" alt=""></a>
+            <a href=""><img src="images/fb.png" width="2%" alt=""></a>
+            <p class="lastline">Some features and devices may not be available in all areas</p>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
